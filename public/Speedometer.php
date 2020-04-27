@@ -2,7 +2,7 @@
 
 class Speedometer
 {
-    const KM_TO_MILES = 0.621;
+    private const KM_TO_MILES = 0.621;
 
     public static function convertKmToMiles($km): float
     {
